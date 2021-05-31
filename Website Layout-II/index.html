@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- rgb(4,29,92) -->
+    <title>Website Layout-II</title>
+    <style type="text/css">
+      .firstDiv > div {
+        margin-left: 10px;
+        float: left;
+        display: block;
+        background-color: rgb(252, 253, 255);
+      }
+      .firstDiv {
+        height: 400px;
+        width: 650px;
+        margin: auto;
+        padding-left: 100px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .lastDiv {
+        width: 649px;
+        height: 150px;
+        margin: auto;
+        background-color: rgb(4, 29, 92);
+      }
+      .lastDiv > div {
+        margin-left: 6px;
+        float: left;
+        color: white;
+      }
+      .lastDiv > div > input {
+        height: 20px;
+        width: 160px;
+        margin: 10px;
+      }
+
+      .lastDiv > div > select {
+        height: 20px;
+        width: 250px;
+        margin: 10px;
+      }
+      #send {
+        height: 20px;
+        width: 80px;
+        margin: 10px;
+        background-color: red;
+        border: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Recent News</h1>
+
+    <div class="firstDiv">
+      <div>
+        <img src="https://via.placeholder.com/150x120" />
+
+        <h3>Business Planning</h3>
+        <p>
+          Amazing place to visit in<br />
+          summer
+        </p>
+        <h5>Nov,30 2020</h5>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/150x120" />
+
+        <h3>Business Planning</h3>
+        <p>
+          Amazing place to visit in<br />
+          summer
+        </p>
+        <h5>Nov,30 2020</h5>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/150x120" />
+
+        <h3>Business Planning</h3>
+        <p>
+          Amazing place to visit in<br />
+          summer
+        </p>
+        <h5>Nov,30 2020</h5>
+      </div>
+    </div>
+
+    <div class="lastDiv">
+      <div>
+        <h3>
+          REQUEST FOR CALL <br />
+          BACK
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur<br />
+          adipisicing elit. Facilis quos temporibus<br />
+          odit amet itaque iure.
+        </p>
+      </div>
+      <div id="form">
+        <input type="text" placeholder="Name" />
+        <input type="tel" placeholder="Phone" /><br />
+        <select name="Services">
+          <option value="a">Services</option>
+          <option value="b">B</option>
+          <option value="c">C</option>
+          <option value="d">D</option>
+        </select>
+        <input type="submit" value="Send" id="send" />
+      </div>
+    </div>
+  </body>
+</html>
